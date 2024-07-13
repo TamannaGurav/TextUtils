@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: rgb(70, 144, 33);
+  color: aliceblue;
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+.mb-3 textarea{
+  padding: 15px;
+}
+
+.container, .c01{
+  padding: 1.25rem;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width:80vw;
+}
+
+.toggleButton{
+  background-color: rgb(39, 71, 59);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
